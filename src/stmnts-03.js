@@ -17,6 +17,8 @@
 
 function rectanglePerimeter(width, height) {
   // write your code here & return
+  const perimeter = 2 * (width + height).toFixed(2);
+  return perimeter;
 }
 
 /**
@@ -28,6 +30,8 @@ function rectanglePerimeter(width, height) {
  */
 function rectangleArea(width, height) {
   // write your code here & return
+  const area = (width * height).toFixed(2);
+  return area;
 }
 
 /**
@@ -42,6 +46,8 @@ function rectangleArea(width, height) {
  */
 function circleCircumference(radius) {
   // write your code here & return
+  const circumference = 2 * Math.PI * radius.toFixed(2);
+  return circumference;
 }
 
 /**
@@ -52,6 +58,8 @@ function circleCircumference(radius) {
  */
 function circleArea(radius) {
   // write your code here & return
+  const area = Math.PI * (radius ** 2).toFixed(2);
+  return area;
 }
 
 /**
@@ -64,6 +72,8 @@ function circleArea(radius) {
  */
 function triangleArea(base, height) {
   // write your code here & return
+  const area = (1 / 2 * base * height).toFixed(2);
+  return area;
 }
 
 /**
@@ -75,6 +85,8 @@ function triangleArea(base, height) {
  */
 function pythagorean(sideA, sideB) {
   // write your code here & return
+  const result = Math.sqrt(sideA ** 2 + sideB ** 2).toFixed(2);
+  return result;
 }
 
 module.exports = {
